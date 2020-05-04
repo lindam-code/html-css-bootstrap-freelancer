@@ -1,0 +1,72 @@
+/* Elementi */
+body {
+  padding-top: 70px;
+}
+section {
+  padding: 32px 0;
+}
+
+/* Regole base */
+.ms-section-primary {
+  background-color: #1abc9c;
+  color: #fff;
+}
+.ms-section-secondary {
+  color: #2c3e50;
+}
+.ms-section-secondary .ms-section-title {
+  color: #333;
+}
+
+
+/* Componenti */
+.ms-navbar {
+  background-color: #2c3e50;
+  height: 70px;
+}
+.ms-jumbotron {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .ms-jumbotron {
+    padding: 48px;
+  }
+}
+.ms-portfolio {
+  text-align: center;
+}
+.ms-portfolio-item {
+  background-color: #ba4b63;
+  height: 300px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.ms-wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Footer */
+.ms-footer-top {
+  background-color: #3a546d;
+  color: white;
+}
+.ms-footer-top span {
+  color: #1abc9c;
+}
+.ms-footer-top i {
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 20px;
+}
+.ms-footer-bottom {
+  background-color: #2c3e50;
+  color: #fff;
+  height: 70px;
+}
+.ms-footer-bottom p {
+  line-height: 70px;
+}
