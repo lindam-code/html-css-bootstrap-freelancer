@@ -2,6 +2,10 @@
 body {
   padding-top: 70px;
 }
+img {
+  width: 100%;
+  height: 100%;
+}
 /* Fine regole generali */
 
 /* Inizio regole componenti */
@@ -15,8 +19,8 @@ body {
 .ms_section_secondary {
   color: #2c3e50;
 }
-.ms_section-secondary .ms-section-title {
-  color: #333;
+.ms_section_secondary h2 {
+  color: #363636;
 }
 .ms_divider {
   margin-bottom: 20px;
@@ -24,12 +28,15 @@ body {
 .ms_divider hr {
   display: inline-block;
   width: 100px;
-  border: 2px solid white;
+  border: 2px solid;
   vertical-align: middle;
   margin: 0 15px;
   border-radius: 5px;
 }
-
+.intro {
+  text-align: center;
+  text-transform: uppercase;
+}
 /* Fine regole componenti */
 
 /* Inizio navigazione */
@@ -51,15 +58,14 @@ body {
   height: 200px;
 }
 
-.ms-portfolio {
-  text-align: center;
-}
-.ms-portfolio-item {
-  background-color: #ba4b63;
-  height: 300px;
-  border-radius: 5px;
+/* Portfolio */
+.ms_portfolio_item {
   margin-bottom: 30px;
 }
+.ms_portfolio_item img {
+  border-radius: 10px;
+}
+
 .ms-wrapper {
   width: 60%;
   margin: 0 auto;
