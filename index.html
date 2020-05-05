@@ -9,7 +9,7 @@
     <title>bootstrap-freelancer</title>
   </head>
   <body>
-    <!-- Inizio header -->
+    <!-- INIZIO HEADER -->
     <header>
       <nav class="navbar navbar-fixed-top ms_navbar">
         <div class="container">
@@ -43,12 +43,12 @@
         </div>
       </nav>
     </header>
-    <!-- Fine header -->
+    <!-- FINE HEADER -->
 
-    <!-- Inizio main -->
+    <!-- INIZIO MAIN -->
     <main>
       <!-- Inizio jumbotron -->
-        <section id="jumbotron" class="ms_section ms_section_primary">
+        <section id="jumbotron" class="ms_section_padding ms_section_primary">
           <div class="container-fluid text-center text-uppercase">
 
             <div class="ms_avatar">
@@ -69,7 +69,7 @@
       <!-- Fine jumbotron -->
 
       <!-- Inizio portfolio -->
-      <section id="portfolio" class="ms_section ms_section_secondary">
+      <section id="portfolio" class="ms_section_padding ms_section_secondary">
         <div class="container">
           <div class="intro">
             <h2 class="ms-section-title">Portfolio</h2>
@@ -121,7 +121,7 @@
       <!-- Fine portfolio -->
 
       <!-- Inizio about -->
-      <section id="about" class="ms_section ms_section_primary">
+      <section id="about" class="ms_section_padding ms_section_primary">
         <div class="ms_wrapper">
           <div class="intro">
             <h2>About</h2>
@@ -137,12 +137,12 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-xs-12 col-md-6">
-                <div class="ms_about_text">
+                <div class="ms_xs_margin-bottom_30">
                   Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
                 </div>
               </div>
               <div class="col-xs-12 col-md-6">
-                <div class="ms_about_text">
+                <div class="ms_xs_margin-bottom_30">
                   You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
                 </div>
               </div>
@@ -161,7 +161,7 @@
       <!-- Inizio about -->
 
       <!-- Inizio contact me  -->
-      <section id="contact-me" class="ms_section ms_section_secondary">
+      <section id="contact-me" class="ms_section_padding ms_section_secondary">
         <div class="ms_wrapper">
           <!-- Inizio intro -->
           <div class="intro">
@@ -181,15 +181,15 @@
             <div class="col-xs-12">
               <div class="form-group">
                 <label for="name" class="sr-only">Name</label>
-                <input type="text" class="form-control" placeholder="Name">
+                <input type="text" class="form-control" id="name" placeholder="Name">
               </div>
               <div class="form-group">
-                <label for="Email" class="sr-only">Email</label>
-                <input type="email" class="form-control" placeholder="Email">
+                <label for="email" class="sr-only">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
               </div>
               <div class="form-group">
-                <label for="Phone" class="sr-only">Phone Number</label>
-                <input type="text" class="form-control" placeholder="Phone Number">
+                <label for="phone" class="sr-only">Phone Number</label>
+                <input type="text" class="form-control" id="phone" placeholder="Phone Number">
               </div>
               <textarea class="form-control" rows="6" placeholder="Message"></textarea>
 
@@ -203,52 +203,55 @@
       <!-- Fine contact me  -->
 
     </main>
-      <!-- Fine main -->
+      <!-- FINE MAIN -->
 
-      <!-- Inizio footer -->
+      <!-- INIZIO FOOTER -->
       <footer>
-        <div class="container">
+
           <!-- Prima riga del footer -->
-          <div class="ms-footer-top">
-            <div class="row">
+          <div class="ms_footer_top ms_footer_padding">
+            <div class="container">
+              <div class="row">
 
-              <div class="col-xs-12 col-md-4">
-                <div class="text-center">
-                  <h3>Location</h3>
-                  <p>2215 John Daniel Drive Clark, MO 54243</p>
+                <div class="col-xs-12 col-md-4">
+                  <div class="text-center ms_xs_margin-bottom_30">
+                    <h3>Location</h3>
+                    <p>2215 John Daniel Drive Clark, MO 54243</p>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                  <div class="text-center ms_xs_margin-bottom_30">
+                    <h3>Around the web</h3>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-google-plus-g"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                  <div class="text-center ms_xs_margin-bottom_30">
+                    <h3>About freelancer</h3>
+                    <p>Freelance is a free to use, open source Bootstrap theme created by <span class="start-bootstrap">Start Bootstrap</span></p>
+                  </div>
                 </div>
               </div>
 
-              <div class="col-xs-12 col-md-4">
-                <div class="text-center">
-                  <h3>Around the web</h3>
-                  <i class="fab fa-facebook-f"></i>
-                  <i class="fab fa-google-plus-g"></i>
-                  <i class="fab fa-twitter"></i>
-                  <i class="fab fa-linkedin-in"></i>
-                </div>
-              </div>
-
-              <div class="col-xs-12 col-md-4">
-                <div class="text-center">
-                  <h3>About freelancer</h3>
-                  <p>Freelance is a free to use, open source Bootstrap theme created by <span class="start-bootstrap">Start Bootstrap</span></p>
-                </div>
-              </div>
             </div>
           </div>
           <!-- Fine prima riga del footer -->
 
           <!-- Seconda riga del footer -->
-            <div class="ms-footer-bottom">
+            <div class="ms_footer_bottom ms_footer_padding">
               <div class="text-center">
                 <p>Copyright &copy; your website 2019</p>
               </div>
             </div>
           <!-- Fine seconda riga del footer -->
 
-        </div>
+
       </footer>
-      <!-- Fine footer -->
+      <!-- FINE FOOTER -->
   </body>
 </html>
