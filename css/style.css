@@ -1,44 +1,44 @@
-/* Elementi */
+/* Inizio regole generali */
 body {
   padding-top: 70px;
 }
-section {
+/* Fine regole generali */
+
+/* Inizio regole componenti */
+.ms_section {
   padding: 32px 0;
 }
-
-/* Regole base */
-.ms-section-primary {
+.ms_section_primary {
   background-color: #1abc9c;
   color: #fff;
 }
-.ms-section-secondary {
+.ms_section_secondary {
   color: #2c3e50;
 }
-.ms-section-secondary .ms-section-title {
+.ms_section-secondary .ms-section-title {
   color: #333;
 }
+/* Fine regole componenti */
 
-
-/* Componenti */
+/* Inizio navigazione */
 .ms_navbar {
   background-color: #2c3e50;
   height: 70px;
   line-height: 70px;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 15px;
 }
 .ms_navbar a {
   color: white;
 }
+/* Fine navigazione */
 
-.ms-jumbotron {
-  text-align: center;
+/* Inizio sezioni main */
+/* Jumbotron */
+.ms_avatar img {
+  height: 200px;
 }
-@media screen and (min-width: 768px) {
-  .ms-jumbotron {
-    padding: 48px;
-  }
-}
+
 .ms-portfolio {
   text-align: center;
 }
@@ -52,6 +52,7 @@ section {
   width: 60%;
   margin: 0 auto;
 }
+/* Fine sezioni main */
 
 /* Footer */
 .ms-footer-top {
