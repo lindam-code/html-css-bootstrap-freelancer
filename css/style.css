@@ -37,6 +37,12 @@ img {
   text-align: center;
   text-transform: uppercase;
 }
+.ms_wrapper {
+  width: 70%;
+  margin: 0 auto;
+  max-width: 992px;
+}
+
 /* Fine regole componenti */
 
 /* Inizio navigazione */
@@ -66,10 +72,21 @@ img {
   border-radius: 10px;
 }
 
-.ms-wrapper {
-  width: 60%;
-  margin: 0 auto;
+/* About */
+.ms_about_button {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
 }
+.ms_about_button a {
+  color: white;
+}
+.ms_about_text {
+  margin-bottom: 30px;
+}
+
+
 /* Fine sezioni main */
 
 /* Footer */
