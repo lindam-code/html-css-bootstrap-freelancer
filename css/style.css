@@ -18,6 +18,18 @@ body {
 .ms_section-secondary .ms-section-title {
   color: #333;
 }
+.ms_divider {
+  margin-bottom: 20px;
+}
+.ms_divider hr {
+  display: inline-block;
+  width: 100px;
+  border: 2px solid white;
+  vertical-align: middle;
+  margin: 0 15px;
+  border-radius: 5px;
+}
+
 /* Fine regole componenti */
 
 /* Inizio navigazione */
