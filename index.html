@@ -161,8 +161,9 @@
       <!-- Inizio about -->
 
       <!-- Inizio contact me  -->
-      <section id="contact-me" class="ms_section ms-contact-me ms_section_secondary">
-        <div class="ms-wrapper">
+      <section id="contact-me" class="ms_section ms_section_secondary">
+        <div class="ms_wrapper">
+          <!-- Inizio intro -->
           <div class="intro">
             <h2>Contact Me</h2>
             <!-- Inizio divider -->
@@ -173,17 +174,30 @@
             </div>
             <!-- Fine divider -->
           </div>
+          <!-- Fine intro -->
 
-          <p>Name</p>
-          <hr>
-          <p>Email Address</p>
-          <hr>
-          <p>Phone Number</p>
-          <hr>
-          <p>Message</p>
-          <hr>
-          <hr>
-          <button type="button" name="button">Send</button>
+          <!-- Inizio form -->
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="form-group">
+                <label for="name" class="sr-only">Name</label>
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label for="Email" class="sr-only">Email</label>
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="Phone" class="sr-only">Phone Number</label>
+                <input type="text" class="form-control" placeholder="Phone Number">
+              </div>
+              <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+
+              <button class="btn btn-default ms_form_button" type="submit">Send</button>
+            </div>
+          </div>
+          <!-- Fine form -->
+
         </div>
       </section>
       <!-- Fine contact me  -->
